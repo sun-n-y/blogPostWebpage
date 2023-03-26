@@ -102,3 +102,12 @@ main h3 {
 }
 
 /* block quote styling end */
+
+/* code styles */
+
+code {
+  color: #e95400;
+  font-weight: bold;
+}
+
+/* code styles end */
