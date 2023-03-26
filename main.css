@@ -24,3 +24,44 @@ h5,
 h6 {
   font-family: Bitter, serif;
 }
+
+.info {
+  text-align: center;
+  font-family: Bitter, serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+
+.info span {
+  color: #e95400;
+}
+
+.headline {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0px;
+  margin: 40px 0;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+/* block quote styling */
+
+.quote {
+  font-style: italic;
+  font-size: 14px;
+  border-left: 2px solid #e95400;
+  padding-left: 16px;
+  margin: 32px 0 32px 32px;
+}
+
+.quote cite {
+  display: block;
+  font-weight: bold;
+  margin-left: 20px;
+}
