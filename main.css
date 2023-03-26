@@ -16,6 +16,8 @@ body {
   letter-spacing: 0.5px;
 }
 
+/* heading styles */
+
 h1,
 h2,
 h3,
@@ -23,7 +25,45 @@ h4,
 h5,
 h6 {
   font-family: Bitter, serif;
+  font-weight: 500;
 }
+
+h1 {
+  font-size: 80px;
+  letter-spacing: -1.5px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 50px;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-size: 38px;
+  letter-spacing: 0;
+}
+
+h4 {
+  font-size: 30px;
+  letter-spacing: 0.25px;
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 0.25px;
+}
+
+h6 {
+  font-size: 20px;
+  letter-spacing: 0.25px;
+}
+
+main h3 {
+  text-transform: capitalize;
+}
+
+/* heading styles end */
 
 .info {
   text-align: center;
@@ -45,12 +85,6 @@ h6 {
   font-size: 18px;
 }
 
-h2 {
-  font-size: 50px;
-  font-weight: 500;
-  letter-spacing: -0.5px;
-}
-
 /* block quote styling */
 
 .quote {
@@ -66,3 +100,5 @@ h2 {
   font-weight: bold;
   margin-left: 20px;
 }
+
+/* block quote styling end */
