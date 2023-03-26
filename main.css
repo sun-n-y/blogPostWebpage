@@ -1,1 +1,8 @@
 /* blog post styling */
+
+/* cerntering main section */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px;
+}
