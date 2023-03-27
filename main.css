@@ -32,6 +32,7 @@ h1 {
   font-size: 80px;
   letter-spacing: -1.5px;
   font-weight: 400;
+  margin: 0;
 }
 
 h2 {
@@ -142,3 +143,31 @@ footer li a:hover {
 }
 
 /* footer styles end */
+
+/* hero styling */
+
+.hero {
+  background-color: #863ae8;
+  height: 100vh;
+  color: white;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero hr {
+  width: 50%;
+  margin: 32px 0;
+}
+
+.hero h1,
+.hero p {
+  width: 75%;
+  max-width: 900px;
+  margin: 16px 0;
+}
+
+/* hero styling end */
